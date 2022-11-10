@@ -492,7 +492,6 @@ map <leader>gR :call ShowRoutes()<cr>
 
 
 " Snipmate setup
-source ~/.vim/snippets/support_functions.vim
 autocmd vimenter * call s:SetupSnippets()
 function! s:SetupSnippets()
   "if we're in a rails env then read in the rails snippets
